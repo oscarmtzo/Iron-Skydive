@@ -1,4 +1,42 @@
-#user-input {
-  background-color: blue;
-  color: #fff;
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* { 
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  font-family: Roboto Condensed;
+  font-size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;
+
+}
+
+h1	{
+  font-size: 9em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2	{
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 4em;
+}
+
+
+h3 {
+  font-size: 4.2em;
+  text-align: center;
+}	
+
+h4 {
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+}
+
+h5 {
+  font-size: 1.2em;
+}	

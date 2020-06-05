@@ -6,12 +6,17 @@
 }
 
 body {
-  font-family: Roboto Condensed;
+  font-family: Roboto;
   font-size: 10px;
   line-height: 3.5em;
   font-weight: 300;
 
 }
+
+h1 h2 h3 h4 h5 {
+  font-family: Roboto Condensed;
+}
+
 
 h1	{
   font-size: 9em;
@@ -40,3 +45,98 @@ h4 {
 h5 {
   font-size: 1.2em;
 }	
+
+
+.nav-bar {
+  background-color: rgb(25, 33, 41);
+  color: #fff;
+}
+
+.nav-bar-item {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.nav-top {
+  position: fixed;
+  background-color: rgba(10, 10, 10, 0.308);
+  bottom: 30%;
+  right: 10%;
+}
+
+.header {
+  background-image: url('https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg');
+  background-position: 0, 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.h2 {
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
+  font-size: 2.5em;
+}
+
+.dark-background {
+  background-color: rgb(25, 33, 41);
+  color: #fff;
+}
+
+.text {
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+}
+
+.link-btn {
+  background-color: rgb(67, 163, 230);
+  color: #fff;
+  font-family: Roboto Condensed;
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.service-box {
+  font-size: 1.7em;
+  text-align: center;
+  
+}
+
+#team .section-text {
+  font-size: 1.9em;
+  text-align: center;
+  
+}
+
+#team .member-name {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.footer {
+  text-align: center;
+  font-size: 1.9em;
+}
+
+.address {
+  font-style: normal;
+  font-size: 0.8em;
+}
+/*Blue	67, 163, 230
+Dark Blue	25, 33, 41
+Text	0, 0, 0*/
+
+.link-btn-ftr {
+  color: rgb(67,163,230);
+  text-decoration: none;
+}
+/*
+
+Color: blue (echa un vistazo a la tabla al comienzo de esta iteración).
+Text decoration: none.
+Asigna esta clase a cada elemento dentro de la lista que tienes en el footer.
+*\

@@ -123,6 +123,7 @@ header aside p {
   font-weight: 100;
   text-align: center;
   padding-bottom: 1%;
+  padding-left: 1%;
 }
 
 .link-btn {
@@ -168,6 +169,26 @@ header aside p {
 #team .member-name {
   font-size: 1.5em;
   font-weight: 700;
+}
+
+table {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+  margin: 10% 2%;
+}
+
+
+th, td {
+  border-bottom-style: solid;
+  margin: 5px 10px;
+}
+
+.slot-form-container {
+  width: 40%;
+  margin-top: 18px; 
+  margin-right: auto; 
+  margin-bottom: 0; 
+  margin-left: auto;
 }
 
 .footer {
